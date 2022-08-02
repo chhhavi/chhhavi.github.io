@@ -1,0 +1,12 @@
+body {
+    background-color: #F5EFBE;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    color: #36454F;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    align-items: center;
+  }
