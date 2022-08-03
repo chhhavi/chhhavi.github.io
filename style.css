@@ -5,23 +5,33 @@ body {
 
 }
 
-.text {
-    text-align: left;
-    display: flex;
+.main {
+    display:flex;
     flex-direction: column;
     align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: left;
     row-gap: 15px;
+    max-width: 30em;
     margin-left: auto;
     margin-right: auto;
-    width: 30em;
+    flex-wrap: wrap;
+    
 }
 
 .heading {
     margin-left: auto;
     margin-right: auto;
-    width: 30em;
     text-align: left;
     margin-top: 5%;
+    max-width: 30em;
+    min-width: 30em;
+
 }
 
 h1{
